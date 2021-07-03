@@ -1,7 +1,7 @@
 package main
 
 import (
-	sortSocks "github.com/christophermca/go-algo/cmd/sortingSocks"
+	sortSocks "github.com/christophermca/go-algo/sorting-socks"
 	"testing"
 )
 
