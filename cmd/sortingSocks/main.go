@@ -1,11 +1,14 @@
-package main
+package sortingsocks
 
 import (
 	"fmt"
-	"github.com/christophermca/go-algo/cmd/sortingSocks"
 )
 
-func main() {
-	GenerateSocksPile(20)
+//Run algo Sorting Socks
+func Run(sockData []int) []int {
+	if len(sockData) > 0 {
+		fmt.Println(sockData)
+	}
 	fmt.Println("sorting socks")
+	return sockData
 }

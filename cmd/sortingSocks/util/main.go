@@ -1,11 +1,8 @@
 package util
 
-import (
-	"fmt"
-	"math/rand"
-)
-
 // GenerateSockPile return int[]
-func GenerateSockPile(size int) {
-	fmt.Printf("number of socks %s\n", size)
+func GenerateSockPile(pile int) []int {
+	return make([]int, pile)
+	//fmt.Printf("number of socks %s\n", len(pile))
+	//i := 0
 }
