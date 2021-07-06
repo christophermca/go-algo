@@ -8,7 +8,7 @@ func GenerateSockPile(pileSize int) []int {
 	//fmt.Printf("number of socks %s\n", len(pile))
 	i := 0
 	for i < pileSize {
-		pile[i] = rand.IntN(3)
+		pile[i] = rand.Intn(3)
 
 		i++
 
