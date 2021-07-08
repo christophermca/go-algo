@@ -2,9 +2,9 @@ package main
 
 import (
 	sortSocks "github.com/christophermca/go-algo/sorting-socks"
+	util "github.com/christophermca/go-algo/sorting-socks/util"
 )
 
 func main() {
-	socks := []int{1}
-	sortSocks.Run(socks)
+	sortSocks.Run(util.GenerateSockPile(20))
 }

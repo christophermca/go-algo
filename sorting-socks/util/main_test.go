@@ -1,11 +1,12 @@
 package util
 
 import (
+	"reflect"
 	"testing"
 )
 
 // GenerateSockPile return int[]
 func TestGenerateSockPile(t *testing.T) {
-	GenerateSockPile(20)
-
+	expect := GenerateSockPile(20)
+	reflect.ValueOf(expect).Len()
 }

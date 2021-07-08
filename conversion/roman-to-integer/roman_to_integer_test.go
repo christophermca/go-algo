@@ -25,6 +25,5 @@ func TestRomanToInteger(t *testing.T) {
 		if result != test.expected {
 			t.Error(test.name)
 		}
-
 	}
 }
