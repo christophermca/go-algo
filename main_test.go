@@ -2,10 +2,12 @@ package main
 
 import (
 	sortSocks "github.com/christophermca/go-algo/sorting-socks"
+	util "github.com/christophermca/go-algo/sorting-socks/util"
 	"testing"
 )
 
-func TestMain(t *testing.T) {
-	socks := []int{1, 2, 1, 1, 1, 2, 2}
+//this ends up being a smoke test i guess?
+func TestSortingSocks(t *testing.T) {
+	socks := util.GenerateSockPile(20)
 	sortSocks.Run(socks)
 }
