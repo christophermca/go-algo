@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	sortSocks.Run(util.GenerateSockPile(20))
+	sortSocks.SortingSocks(util.GenerateSockPile(20))
 }

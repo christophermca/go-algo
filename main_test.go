@@ -8,6 +8,5 @@ import (
 
 //this ends up being a smoke test i guess?
 func TestSortingSocks(t *testing.T) {
-	socks := util.GenerateSockPile(20)
-	sortSocks.Run(socks)
+	sortSocks.SortingSocks(util.GenerateSockPile(4))
 }
